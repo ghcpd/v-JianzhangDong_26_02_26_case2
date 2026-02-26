@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.2, pytest-8.3.3, pluggy-1.6.0
+rootdir: D:\projects\v-JianzhangDong_26_02_26_case2\oswe-vscode-secondary\v-JianzhangDong_26_02_26_case2
+plugins: anyio-4.12.1, cov-4.1.0
+collected 3 items
+
+issue_fixed\tests\test_command_injection.py .                            [ 33%]
+issue_fixed\tests\test_secret_exposure.py .                              [ 66%]
+issue_fixed\tests\test_sql_injection.py .                                [100%]
+
+============================== 3 passed in 0.08s ==============================

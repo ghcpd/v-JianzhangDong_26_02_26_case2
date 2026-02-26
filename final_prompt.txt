@@ -1,0 +1,15 @@
+## Security vulnerabilities found in the app
+
+Found critical security issues that need to be fixed:
+
+1. SQL injection in database.py
+2. Command injection in report.py  
+3. Hardcoded secrets in config.py
+
+**Expected:**
+All vulnerabilities should be patched. Tests in the tests folder must pass.
+
+**Notes:**
+- Create "issue_fixed" folder for your changes, don't touch the original "issue" folder
+- Run all tests automatically and save results to logs folder
+- Don't modify the test files
