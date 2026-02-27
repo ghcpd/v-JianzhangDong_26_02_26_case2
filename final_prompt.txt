@@ -1,0 +1,31 @@
+## Security Vulnerabilities Remediation Task
+
+**Context:**
+The application located in the "issue" folder contains critical security vulnerabilities that must be fixed.
+
+**Identified Vulnerabilities:**
+1. SQL injection vulnerability in database.py
+2. Command injection vulnerability in report.py  
+3. Hardcoded secrets in config.py
+
+**Requirements:**
+- Fix all three security vulnerabilities by implementing proper security measures
+- Ensure all existing tests in the tests/ folder pass after fixes are applied
+- All vulnerabilities must be completely patched with industry-standard secure coding practices
+
+**Implementation Constraints:**
+- Create a new folder named "issue_fixed" for all corrected files
+- Do NOT modify any files in the original "issue" folder
+- Do NOT modify any test files
+- Copy test files to the "issue_fixed" folder without changes
+
+**Testing and Validation:**
+- Run all tests automatically using pytest
+- Save test execution results to the logs/ folder as "test_results.txt"
+- Verify that all tests pass successfully
+
+**Expected Deliverables:**
+1. Complete "issue_fixed" folder with all fixed application files
+2. All test files copied to "issue_fixed/tests/" (unchanged)
+3. Test results saved to logs/test_results.txt showing all tests passing
+4. Original "issue" folder remains untouched
